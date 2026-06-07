@@ -57,7 +57,13 @@ height = 700
 
 
 def load_model():
-    model = torch.hub.load('ultralytics/yolov5', 'yolov5l')
+    model = torch.hub.load(
+        'ultralytics/yolov5',
+        'yolov5l',
+        force_reload=True,  # принудительная перезагрузка
+        trust_repo=True,  # доверие репозиторию
+        verbose=False  # уменьшение вывода
+    )
     return model
 
 
