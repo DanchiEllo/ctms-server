@@ -1,0 +1,60 @@
+{
+  "cameras": [
+    {
+      "id": 0,
+      "channels": 3,
+      "width": 1280,
+      "height": 720,
+      "uri": "https://s2.moidom.citylink.pro/s/private/0igTqRIBI1q9sY1w4NP1xw/1780779600/0000091167.m3u8",
+      "areas": [
+        {
+          "id": 0,
+          "coordinates": [
+            [
+              552,
+              523
+            ],
+            [
+              670,
+              446
+            ],
+            [
+              1231,
+              613
+            ],
+            [
+              1196,
+              708
+            ],
+            [
+              1102,
+              713
+            ]
+          ],
+          "mask": {
+            "x": 552,
+            "y": 446,
+            "width": 679,
+            "height": 267
+          },
+          "traffic_light": {
+            "id": 0,
+            "uri": "tata"
+          }
+        }
+      ]
+    }
+  ],
+  "traffic_lights": [
+    {
+      "id": 0,
+      "uri": "tata"
+    }
+  ],
+  "intersecting_streets": [
+    "\u0412\u043e\u043b\u0433\u043e\u0433\u0440\u0430\u0434\u0441\u043a\u0430\u044f",
+    "\u041a\u043e\u0440\u043e\u043b\u0435\u043d\u043a\u043e"
+  ],
+  "coordinates": "54.186187, 45.214257",
+  "move_time": null
+}
